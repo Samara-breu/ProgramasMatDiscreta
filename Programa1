@@ -1,0 +1,8 @@
+conjunto_A = {"banana", "amora", "abacaxi", "uva", "laranja"}
+
+valor = input("Digite um valor para verificar se está no conjunto A: ")
+
+if valor in conjunto_A:
+    print(f"{valor} está no conjunto A.")
+else:
+    print(f"{valor} não está no conjunto A.")

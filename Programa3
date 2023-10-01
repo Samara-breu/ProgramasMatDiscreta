@@ -1,0 +1,6 @@
+p = False
+q = True
+
+resultado = (p and q) <= ((not p) or q)
+
+print(f"Resultado da expressão: {resultado}")

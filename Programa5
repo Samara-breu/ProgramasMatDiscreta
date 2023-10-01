@@ -1,0 +1,18 @@
+valores1 = []
+valores2 = []
+
+print("Digite os primeiros 5 valores:")
+for _ in range(5):
+    valor = input("Digite um valor: ")
+    valores1.append(valor)
+
+print("Digite os próximos 5 valores:")
+for _ in range(5):
+    valor = input("Digite um valor: ")
+    valores2.append(valor)
+
+resultado = list(set(valores1 + valores2))
+
+print("Valores únicos inseridos:")
+for valor in resultado:
+    print(valor)

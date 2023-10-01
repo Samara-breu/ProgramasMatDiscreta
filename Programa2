@@ -1,0 +1,5 @@
+valores = ["V", "F"]
+
+for p in valores:
+    for q in valores:
+        print(f"p = {p}, q = {q}")
